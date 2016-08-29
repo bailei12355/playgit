@@ -1,0 +1,1 @@
+a:5:{i:0;s:3:"uid";i:1;s:3:"aid";i:2;s:7:"aid_uid";i:3;s:8:"liketime";s:5:"_type";a:4:{s:3:"uid";s:16:"int(10) unsigned";s:3:"aid";s:16:"int(10) unsigned";s:7:"aid_uid";s:7:"int(10)";s:8:"liketime";s:8:"datetime";}}

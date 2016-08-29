@@ -1,0 +1,44 @@
+<div class="note-comment clearfix">
+	<div class="content">
+		<div class="meta-top">
+			<a href="{:U('Home/User/Info',array('id' => $user[uid]))}" class="avatar">
+				<empty name="user.head_img">
+					<img src="__PUBLIC__/Picture/e6716d6e36154d1199319a551b5b3d89.gif" alt="100" />
+				<else/>
+					<img src="{$user.head_img}" alt="100" />
+				</empty>
+			</a>
+			<p>
+				<a href="{:U('Home/User/Info',array('id' => $user[uid]))}" class="author-name">{$user.nickname}</a>
+			</p>
+			<span class="reply-time">
+			<small>{$info.floor}楼 · </small>
+			<a href="javascript:void(0)">{$info.date}</a></span>
+		</div>
+		<p>{$info.content}</p>
+		<div class="comment-footer clearfix text-right">
+			<a href="javascript:void(0)" class="like pull-left likecomment" data-id="{$info.cmtid}">
+				<i class="fa fa-heart-o"></i>喜欢<span class="zan">({$info.zan})</span>
+			</a>
+			<a href="javascript:void(0)" class="reply" data-nickname="{$info.nickname}" data-id="{$info.cmtid}">回复</a>
+			<form method="post" id="from{$vo.cmtid}" data-type="json" data-remote="true" accept-charset="UTF-8" action="/notes/4931489/comments" class="new-child-comment" style="display:none;">
+				<input type="hidden" value="3255871" name="comment[parent_id]">
+				<div class="comment-text">
+					<textarea name="comment[content]" class="mousetrap" placeholder="写下你的评论…" maxlength="2000"></textarea>
+					<div>
+						<input type="submit" data-disable-with="提交中..." class="btn btn-small btn-info" value="发 表" name="commit">
+						<div class="emoji">
+							<a data-toggle="modal" href="#emoji-modal">
+								<i class="fa fa-smile-o"></i>
+							</a>
+							<span style="display: none" class="warning">
+								<i class="fa fa-exclamation-circle"></i>
+								<span class="warning-text"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

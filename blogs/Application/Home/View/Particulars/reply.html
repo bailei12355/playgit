@@ -1,0 +1,17 @@
+<div class="child-comment">
+	<p class="text-left">
+		<a href="{:U('Home/User/Info',array('id' => $info[uid]))}" class="blue-link">{$user.nickname}</a>：
+		<notempty name="info.ruid">
+			<a target="_blank" class="maleskine-author" href="{:U('Home/User/index',array('id' => $info[ruid]))}">@{$ruser.nickname}</a>
+		</notempty>
+		{$info.content} 
+	</p>
+	<div class="child-comment-footer text-right clearfix">
+		<a href="javascript:void(null)" class="reply" data-nickname="{$user.nickname}" data-ruid="{$info.ruid}" data-id="{$info.pid}">回复
+		</a>
+		<a class="delete" data-remote="true" data-commenter-id="{$info.cmtid}" rel="nofollow" data-method="delete" data-type="json" href="">删除</a>
+		<span class="reply-time pull-left">
+			<a href="javascript:void(0)">{$info.date}</a>
+		</span>
+	</div>
+</div>

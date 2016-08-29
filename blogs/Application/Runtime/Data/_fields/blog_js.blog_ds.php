@@ -1,0 +1,1 @@
+a:4:{i:0;s:3:"uid";i:1;s:3:"aid";i:2;s:8:"ds_point";s:5:"_type";a:3:{s:3:"uid";s:16:"int(10) unsigned";s:3:"aid";s:16:"int(10) unsigned";s:8:"ds_point";s:16:"int(10) unsigned";}}

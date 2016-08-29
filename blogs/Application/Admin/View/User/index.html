@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>全部用户</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bjy.css">
+    <link rel="stylesheet" href="__PUBLIC__/home/Css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/index.css">
+</head>
+<body>
+<table class="table table-bordered table-striped table-hover table-condensed">
+    <thead>
+        <tr>
+            <th width="5%">id</th>
+            <th width="10%">用户名</th>
+            <th width="15%">密码</th>
+            <th width="20%">邮箱</th>
+            <th width="5%">积分</th>
+            <th width="10%">状态</th>
+            <th width="10%">登录次数</th>
+            <th width="25%">操作</th>
+        </tr>
+    </thead>
+    <foreach name="data" item="v">
+        <tr>
+            <td>{$v['uid']}</td>
+            <td>{$v['uname']}</td>
+            <td>{$v['pwd']}</td>
+            <td>{$v['email']}</td>
+            <td>{$v['point']}</td>
+            <td>{$v['status']}</td>
+            <td>{$v['login_count']}</td>
+            <td>
+                <a href="{:U('Admin/User/del',array('uid'=>$v['uid']))}">
+                    删除
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="{:U('Admin/User/edit',array('uid'=>$v['uid']))}">
+                    编辑
+                </a>
+            </td>
+        </tr>
+    </foreach>
+</table>
+<div style="text-align: center;">
+    {$page}
+</div>
+    <script src="__PUBLIC__/js/jquery-2.0.0.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/pace.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/index.js"></script>
+    <script src="__PUBLIC__/admin/js/index.js"></script>
+</body>
+</html>

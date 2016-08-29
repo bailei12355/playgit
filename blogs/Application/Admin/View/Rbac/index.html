@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>全部用户</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bjy.css">
+    <link rel="stylesheet" href="__PUBLIC__/home/Css/index.css">
+</head>
+<body>
+<table class="table table-bordered table-striped table-hover table-condensed">
+    <thead>
+        <tr>
+            <th width="5%">ID</th>
+            <th width="10%">用户名</th>
+            <th width="15%">上次登录时间</th>
+            <th width="15%">锁定状态</th>
+            <th width="10%">登录次数</th>
+            <th width="20%">用户所属组别</th>
+            <th width="25%">操作</th>
+        </tr>
+    </thead>
+    <foreach name="result" item="v">
+        <tr>
+            <td>{$v['adm_id']}</td>
+            <td>{$v['adm_name']}</td>
+            <td>{$v.last_login|date ='y-m-d H:i:s',###}</td>
+            <td>
+                <if condition="$v['lock'] eq 1">
+                已锁定
+                <else />
+                未锁定
+                </if>
+            </td>
+            <td>{$v['login_count']}</td>
+            <td>
+                <if condition='$v["adm_name"] eq C("RBAC_SUPERADMIN")'>
+                超级管理员
+                <else />
+                <ul>
+                    <foreach name="v.role" item='val'>
+                        <li>{$val.name}({$val.remark})</li>
+                    </foreach>
+                </ul>
+                </if>
+            </td>
+            <td>
+                <if condition="$v['lock'] eq 1">
+                <a href="{:U('Admin/Rbac/unlock',array('adm_id'=>$v['adm_id']))}">解锁</a>
+                <else />
+                <a href="{:U('Admin/Rbac/lock',array('adm_id'=>$v['adm_id']))}">锁定</a>
+                </if>
+            </td>
+        </tr>
+    </foreach>
+</table>
+<div style="text-align: center;">
+    {$page}
+</div>
+    <script src="__PUBLIC__/js/jquery-2.0.0.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/pace.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/index.js"></script>
+    <script src="__PUBLIC__/admin/js/index.js"></script>
+</body>
+</html>

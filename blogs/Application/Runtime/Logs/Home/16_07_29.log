@@ -1,0 +1,249 @@
+[ 2016-07-29T14:35:02+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T14:35:02+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T14:35:20+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T14:35:20+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T14:35:20+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T14:35:27+08:00 ] ::1 /item/blog/index.php/Home/login/%C3%A7%C2%99%C2%BB%C3%A5%C2%BD%C2%95%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F
+ERR: 非法操作:ç»å½æå
+
+[ 2016-07-29T15:01:07+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:01:07+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:01:07+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:01:34+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:01:34+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:10:27+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:10:27+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T15:10:27+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:37:41+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:37:41+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:37:41+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:37:56+08:00 ] ::1 /item/blog/index.php/Home/login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:37:56+08:00 ] ::1 /item/blog/index.php/Home/login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:38:26+08:00 ] ::1 /item/blog/index.php/Home/Particulars/add_comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 169 行.
+
+[ 2016-07-29T16:38:26+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 194 行.
+
+[ 2016-07-29T16:38:26+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:38:26+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:38:26+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:47:43+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 194 行.
+
+[ 2016-07-29T16:47:50+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 194 行.
+
+[ 2016-07-29T16:48:09+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 194 行.
+
+[ 2016-07-29T16:51:29+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:51:29+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-07-29T16:51:46+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `cmtid` = 0 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-07-29T16:51:46+08:00 ] ::1 /item/blog/index.php/Home/Particulars/add_comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','0','0','2','14','dsfdsf','2016','1','0','0') [ RunTime:0.0710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 4 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T16:52:17+08:00 ] ::1 /item/blog/index.php/Home/Particulars/add_comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','0','0','2','15','sfsdf','2016','1','0','0') [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 4 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T16:52:17+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `cmtid` = 128 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `nickname` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','128','0','2','16','','2016','1','0','0') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T16:53:15+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `cmtid` = 62 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\item\blog\Application\Home\Controller\ParticularsController.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `nickname` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','62','0','2','16','dfdsf','2016','1','0','0') [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T16:53:22+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `cmtid` = 129 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `nickname` = 'bail' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 2 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','129','9','2','16','dsfdsf','2016','1','0','0') [ RunTime:0.0780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 3 行.
+NOTIC: [8] Use of undefined constant ruid - assumed 'ruid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 4 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\ae55a83c990afdedc8d1df8764cf7de1.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T16:53:45+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `blog_attention_authou` (`uid`,`atd_uid`) VALUES ('1','9') [ RunTime:0.0156s ]
+
+[ 2016-07-29T16:53:46+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 [ RunTime:0.0624s ]
+

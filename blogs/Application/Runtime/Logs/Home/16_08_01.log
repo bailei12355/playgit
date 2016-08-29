@@ -1,0 +1,170 @@
+[ 2016-08-01T09:13:44+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-08-01T09:13:44+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-08-01T09:13:44+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-08-01T09:14:40+08:00 ] ::1 /item/blog/index.php/Home/Particulars/add_comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 8 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','0','0','8','3','FDSF ','2016','1','0','0') [ RunTime:0.0630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 4 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-01T09:14:40+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 8 AND `cmtid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-01T09:14:46+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `blog_attention_authou` (`uid`,`atd_uid`) VALUES ('1','9') [ RunTime:0.0480s ]
+
+[ 2016-08-01T09:14:48+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 [ RunTime:0.0540s ]
+
+[ 2016-08-01T09:29:18+08:00 ] ::1 /item/blog/index.php/Home/Particulars/like_user?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: limit D:\wamp\www\item\blog\Application\Home\Model\LikeModel.class.php 第 43 行.
+SQL: SELECT * FROM blog_like l INNER JOIN blog_user_info ui on l.uid=ui.uid  WHERE `aid` = 16 ORDER BY liketime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-01T09:29:27+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_attention_authou` (`uid`,`atd_uid`) VALUES ('1','9') [ RunTime:0.0140s ]
+
+[ 2016-08-01T09:29:28+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 [ RunTime:0.0510s ]
+
+[ 2016-08-01T09:29:59+08:00 ] ::1 /item/blog/index.php/Home/Particulars/add_comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 14 AND `pid` = 0 ORDER BY floor desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `blog_comment` (`uid`,`type`,`pid`,`ruid`,`aid`,`floor`,`content`,`date`,`status`,`zan`,`is_delete`) VALUES ('9','1','0','0','14','1','dasdas','2016','1','0','0') [ RunTime:0.0510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 4 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 10 行.
+NOTIC: [8] Undefined index: nickname D:\wamp\www\item\blog\Application\Runtime\Cache\Home\1258cdc9c8f4af6c4adf4d3519fddc2a.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-01T09:29:59+08:00 ] ::1 /item/blog/index.php/Home/Particulars/Reply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_comment` WHERE `aid` = 0 AND `cmtid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-01T16:16:49+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/jquery-1.8.3.min.js
+ERR: 非法操作:Scripts
+
+[ 2016-08-01T16:16:49+08:00 ] ::1 /item/blog/index.php/Home/Login/Scripts/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js
+ERR: 非法操作:Scripts
+
+[ 2016-08-01T16:17:03+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `blog_attention_authou` (`uid`,`atd_uid`) VALUES ('1','9') [ RunTime:0.0610s ]
+
+[ 2016-08-01T16:17:04+08:00 ] ::1 /item/blog/index.php/Home/Particulars/enit_attention?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_user_info` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_user_info` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_like` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_like` WHERE `aid_uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_attention_authou` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_attention_authou` WHERE `atd_uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `blog_attention_authou` WHERE `uid` = 1 AND `atd_uid` = 9 [ RunTime:0.0520s ]
+
+[ 2016-08-01T18:09:25+08:00 ] ::1 /blog/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

@@ -1,0 +1,13 @@
+<volist name="like_list" id="vo">
+	<li data-user-id="{$vo.uid}">
+		<a href="{:U('Home/Personal/index',array('id' => $vo[uid]))}" class="avatar">
+			<empty name="vo.head_img">
+				<img src="__PUBLIC__/Picture/e6716d6e36154d1199319a551b5b3d89.gif" alt="100" />
+			<else/>
+				<img src="{$vo.head_img}" alt="100" />
+			</empty>
+		</a>
+		<a href="{:U('Home/User/Info',array('id' => $vo[uid]))}" class="blue-link">{$vo.nickname}</a>
+		<span class="time">{$vo.liketime}</span>
+	</li>
+</volist>

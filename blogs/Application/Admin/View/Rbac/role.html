@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>全部用户</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bjy.css">
+    <link rel="stylesheet" href="__PUBLIC__/home/Css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/index.css">
+</head>
+<body>
+<table class="table table-bordered table-striped table-hover table-condensed">
+    <thead>
+        <tr>
+            <th width="5%">id</th>
+            <th width="10%">角色名称</th>
+            <th width="15%">角色描述</th>
+            <th width="20%">开启状态</th>
+            <th width="25%">操作</th>
+        </tr>
+    </thead>
+    <foreach name="role" item="v">
+        <tr>
+            <td>{$v['id']}</td>
+            <td>{$v['name']}</td>
+            <td>{$v['remark']}</td>
+            <td>
+                <if condition="$v['status'] eq 1">
+                开启
+                <else />
+                关闭
+                </if>
+            </td>
+            <td>
+                <a href="{:U('Admin/Rbac/access',array('rid'=>$v['id']))}">
+                    配置权限
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+    </foreach>
+</table>
+<div style="text-align: center;">
+    {$page}
+</div>
+    <script src="__PUBLIC__/js/jquery-2.0.0.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/pace.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/index.js"></script>
+    <script src="__PUBLIC__/admin/js/index.js"></script>
+</body>
+</html>

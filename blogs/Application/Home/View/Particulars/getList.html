@@ -1,0 +1,88 @@
+<volist name="comment_list" id="vo">
+	<div class="note-comment clearfix">
+		<div class="content">
+			<div class="meta-top">
+				<a href="{:U('Home/Personal/Personal',array('id' => $vo[uid]))}" class="avatar">
+					<empty name="vo.head_img">
+						<img src="__PUBLIC__/Picture/e6716d6e36154d1199319a551b5b3d89.gif" alt="100" />
+					<else/>
+						<img src="{$vo.head_img}" alt="100" />
+					</empty>
+				</a>
+				<p>
+					<a href="{:U('Home/Personal/Personal',array('id' => $vo[uid]))}" class="author-name">{$vo.nickname}</a>
+				</p>
+				<span class="reply-time">
+				<small>{$vo.floor}楼 · </small>
+				<a href="javascript:void(0)">{$vo.date}</a></span>
+			</div>
+			<p>{$vo.content}</p>
+			<div class="comment-footer clearfix text-right">
+				<a href="javascript:void(0)" class="like pull-left likecomment" data-id="{$vo.cmtid}">
+					<if condition="$vo.zan_status EQ 1">
+						<i class="fa fa-heart"></i>喜欢<span class="zan">({$vo.zan})</span>
+					<else/>
+						<i class="fa fa-heart-o"></i>喜欢<span class="zan">({$vo.zan})</span>
+					</if>
+					
+				</a>
+				<a href="javascript:void(0)" class="reply" data-nickname="{$vo.nickname}" data-id="{$vo.cmtid}">回复</a>
+
+				<if condition="$vo.uid EQ $uid">
+				<a class="delete" data-remote="true" data-commenter-id="{$vo.cmtid}" rel="nofollow" data-method="delete" data-type="json" href="">删除</a>
+				</if>
+				<notempty name="vo.list">
+					<div id="child{$vo.cmtid}" class="child-comment-list">
+				<else/>
+					<div id="child{$vo.cmtid}" class="child-comment-list" style="display:none;">
+				</notempty>
+					<div  id="childlist{$vo.cmtid}">
+					<volist name="vo.list" id="vos">
+						<div class="child-comment">
+							<p class="text-left">
+								<a href="{:U('Home/Personal/index',array('id' => $vos[uid]))}" class="blue-link">{$vos.nickname}</a>：
+								<notempty name="vos.ruid">
+								<a target="_blank" class="maleskine-author" href="{:U('Home/User/index',array('id' => $vos[ruid]))}">@{$vos.user.nickname}</a>
+								</notempty>
+								{$vos.content} 
+							</p>
+							<div class="child-comment-footer text-right clearfix">
+								<a href="javascript:void(null)" class="reply" data-nickname="{$vos.nickname}" data-ruid="{$vos.ruid}" data-id="{$vo.cmtid}">回复
+								
+								</a>
+								<if condition="$vos.uid EQ $uid">
+								<a class="delete" data-remote="true" data-commenter-id="{$vos.cmtid}" rel="nofollow" data-method="delete" data-type="json" href="">删除</a>
+								</if>
+								<span class="reply-time pull-left">
+									<a href="javascript:void(0)">{$vos.date}</a>
+								</span>
+							</div>
+						</div>
+					</volist>
+					</div>
+					<div data-state="remaining-child-comments"></div>
+					<div class="comment-toolbar clearfix">
+						<span class="pull-right">
+							<a href="javascript:void(null)" class="reply" data-id="{$vo.cmtid}"><i class="fa fa-pencil"></i> 添加新回复</a>
+						</span>
+					</div>
+				</div>
+				<form method="post" data-type="json" data-remote="true" accept-charset="UTF-8" action="" class="new-child-comment" id="from{$vo.cmtid}" style="display:none;">
+
+					<div class="comment-text">
+						<textarea id="{$vo.cmtid}" name="comment[content]" class="mousetrap_c" placeholder="写下你的评论…" maxlength="2000"></textarea>
+						<div>
+							<input type="button" data-disable-with="提交中..." class="btn btn-small btn-info" value="发 表" name="commit" >
+							<div class="emoji">
+								<span style="display: none" class="warning">
+									<i class="fa fa-exclamation-circle"></i>
+									<span class="warning-text"></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</volist>

@@ -1,0 +1,87 @@
+[ 2016-08-02T00:03:42+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:13+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:14+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:14+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:14+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:17+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:19+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:47+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:51+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:52+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:52+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:07:53+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:08:27+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:09:35+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:09:36+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:09:36+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T00:09:36+08:00 ] ::1 /blog/index.php/Admin/Rbac/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-02T01:13:38+08:00 ] ::1 /blog/admin/index/login
+ERR: 非法操作:login
+
+[ 2016-08-02T01:23:27+08:00 ] ::1 /blog/admin/index/login
+ERR: 非法操作:login
+
+[ 2016-08-02T01:23:49+08:00 ] ::1 /blog/admin/index/login
+ERR: 非法操作:login
+
+[ 2016-08-02T09:20:59+08:00 ] ::1 /blog/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2016-08-02T10:51:41+08:00 ] ::1 /blog/index.php/Admin/Tag/add.html
+ERR: 无法加载控制器:Tag
+
+[ 2016-08-02T15:55:59+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T15:56:24+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T15:56:49+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T16:09:22+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T16:09:49+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T16:09:50+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+
+[ 2016-08-02T16:09:55+08:00 ] ::1 /app/item/blog/index.php/Admin/Admin/login.html
+ERR: 非法操作:login
+

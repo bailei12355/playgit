@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>修改分类</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bjy.css">
+    <link rel="stylesheet" href="__PUBLIC__/home/Css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/index.css">
+</head>
+<body>
+<form class="form-gropu" action="{:U('Admin/Category/save')}" method="post" enctype="multipart/form-data">
+    <table class="table table-bordered table-hover">
+        <input type="hidden" name="cid" value="{$data['cid']}">
+        <tr>
+            <th>分类名</th>
+            <td><input class="form-control modal-sm" type="text" name="cname" value="{$data['cname']}"></td>
+        </tr>
+        
+        <tr>
+            <th>关键词</th>
+            <td><input class="form-control modal-sm" type="text" name="keywords" value="{$data['keywords']}"></td>
+        </tr>
+
+        <tr>
+            <th>分类图片</th>
+            <td><input class="form-control modal-sm" type="file" name="cimg" value="{$data['cimg']}"></td>
+        </tr>
+
+        <tr>
+            <th>描述</th>
+            <td>
+                <textarea class="form-control modal-sm" name="description">{$data['description']}</textarea>
+            </td>
+        </tr>
+        
+        <tr>
+            <th></th>
+            <td><input class="btn btn-success" type="submit" value="提交"></td>
+        </tr>
+    </table>
+</form>
+    <script src="__PUBLIC__/js/jquery-2.0.0.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/pace.min.js"></script>
+    <script src="__PUBLIC__/admin/bootstrap-3.3.5/js/index.js"></script>
+    <script src="__PUBLIC__/admin/js/index.js"></script>
+</body>
+</html>

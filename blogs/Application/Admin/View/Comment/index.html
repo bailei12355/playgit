@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>评论管理表</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/bjy.css">
+    <link rel="stylesheet" href="__PUBLIC__/home/Css/index.css">
+    <!-- <link rel="stylesheet" href="__PUBLIC__/admin/css/index.css"> -->
+
+</head>
+<body>
+<block name="main">
+    <div class="container ">
+        <div class="row">
+        <nav class="navbar">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse">
+                    <!-- 搜索的form必须用get -->
+                      <form action="{:U('Comment/index')}" class="navbar-form navbar-left">
+                        <div class="form-group">
+                          用户名:
+                          <input type="text" name="nickname" class="form-control" placeholder="请输入用户名 " value="<notempty name='str.nickname'>{$str.nickname}</notempty>">
+                        </div>
+                        <div class="form-group">
+                            审核状态:
+                            <select name="status" style="width:150px;height:30px;">
+                                <option value="全部">全部</option>
+                                <option value="0"  <if condition="$str.status eq '0'">selected</if>>未审核</option>
+                                <option value="1" <if condition="$str.status eq '1'">selected</if>>已审核</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                      </form>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+         <table class="table table-bordered table-hover">
+            <tr style="text-align:center">
+                <th>评论ID</th>
+                <th style="text-align:center">文章名</th>
+                <th style="text-align:center">用户名</th>
+                <th style="text-align:center">评论内容</th>
+                <th style="text-align:center">评论时间</th>
+                <th style="text-align:center">评论喜欢数量</th>
+                <th style="text-align:center">评论状态</th>
+                <th style="text-align:center">审核状态</th>
+                <th style="text-align:center">操作</th>
+            </tr>
+            <if>
+            <volist name="comment_list" id="v">
+            <tr style="text-align:center">
+                <td style="text-align:center">{$v.cmtid}</td>
+                <td style="text-align:center">{$v.title}</td>
+                <td style="text-align:center">{$v.nickname}</td>
+                <td style="text-align:left">{$v.content}</td>
+                <td style="text-align:center">{$v.date}</td>
+                <td style="text-align:center">{$v.zan}</td>
+                <td style="text-align:center"><a>{$type_arr[$v['is_delete']]}</a></td>
+                <td style="text-align:center"><a>{$status_arr[$v['status']]}</a></td>
+                <td style="text-align:center">
+                    <p><a href="{:U('Comment/edit',array('cmtid'=>$v['cmtid']))}" class="btn btn-sm btn-primary">编辑</a></p>
+                </td>
+            </tr>
+            <volist name="v.list" id="vo">
+                <tr>
+                <td style="text-align:center">{$vo.cmtid}</td>
+                <td style="text-align:center">{$vo.title}</td>
+                <td style="text-align:center">{$vo.nickname}</td>
+                <td style="text-align:left">|----{$vo.content}</td>
+                <td style="text-align:center">{$vo.data}</td>
+                <td style="text-align:center">{$vo.zan}</td>
+                <td style="text-align:center"><a>{$type_arr[$vo['is_delete']]}</a></td>
+                <td style="text-align:center"><a>{$status_arr[$vo['status']]}</a></td>
+                <td style="text-align:center">
+                    <p><a href="{:U('Comment/edit',array('cmtid'=>$vo['cmtid']))}" class="btn btn-sm btn-primary">编辑</a></p>
+                </td>
+            </tr>
+            </volist>
+            </volist>
+         </table>
+         <h3>{$page}</h3>
+        </div><!-- END row -->
+    </div><!-- END container -->
+    </block>
+
+
+<script src="__PUBLIC__/js/jquery-2.0.0.min.js"></script>
+<script src="__PUBLIC__/admin/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/admin/bootstrap-3.3.5/js/pace.min.js"></script>
+<script src="__PUBLIC__/admin/bootstrap-3.3.5/js/index.js"></script>
+<script src="__PUBLIC__/admin/js/index.js"></script>
+</body>
+</html>
